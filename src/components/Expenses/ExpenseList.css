@@ -1,0 +1,11 @@
+.expenses-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.expenses-list__fallback {
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=ExpenseList.css.map */

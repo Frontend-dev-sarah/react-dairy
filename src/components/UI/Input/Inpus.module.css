@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  margin: 0 center;
+}
+.card {
+  padding: 5px 10px;
+}
+.container label {
+  color: rgb(49, 3, 92);
+  font-weight: bold;
+}
+.container input {
+  width: 200px;
+  border: none;
+  padding: 5px;
+  margin: 1px 10px;
+  border-radius: 10px;
+  border-bottom: 1px solid lightslategrey;
+}
+.container input:focus {
+  outline: none;
+  background: rgb(243, 238, 238);
+}
