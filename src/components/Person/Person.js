@@ -24,7 +24,9 @@ export const Person = () => {
             setMyName('');
             setJob('');
             setIsValid(true)
-            setPersonList([...personList, { name: myName, job: job }])
+            setPersonList((prePersonList) => {
+                return [...prePersonList, { name: myName, job: job }]
+            })
         }
     }
 
