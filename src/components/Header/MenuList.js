@@ -11,6 +11,7 @@ const menuItems = (splitLocation) => {
         <li className={`${"menu-item"} ${splitLocation[1] === "" ? "current" : ""}`}><a href="/">Show expenses</a></li>
         <li className={`${"menu-item"} ${splitLocation[1] === "goal" ? "current" : ""}`}><a href="/goal">Manage Goals</a></li>
         <li className={`${"menu-item"} ${splitLocation[1] === "person" ? "current" : ""}`}><a href="/person">Enter Persons</a></li>
+        <li className={`${"menu-item"} ${splitLocation[1] === "task" ? "current" : ""}`}><a href="/task">Tasks</a></li>
     </ul>)
 }
 

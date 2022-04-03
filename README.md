@@ -41,7 +41,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Hooks
 
-useLocation
+- useLocation
+- useSelector
+- useDispatch
+- useEffect
 
 ## Portals
 
@@ -54,8 +57,16 @@ useLocation
 - module.css
 - styled-components
 
-## Functions
+## Functions & techno
 
 Add/Delete list items
 
-Show a simple statistics using chart bars
+Show a simple statistics using chart bars (with filters)
+
+Form validations
+
+Store/get tasks to firebase
+
+Login/logout redux
+
+Redux toolkit

@@ -1,8 +1,8 @@
 import './App.css';
 import { Wrapper } from './Wrapper';
 
-function App() {
 
+function App() {
   return (
     <div className="App">
       <Wrapper />

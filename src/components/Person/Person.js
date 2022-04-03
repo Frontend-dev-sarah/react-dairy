@@ -25,7 +25,7 @@ export const Person = () => {
             setJob('');
             setIsValid(true)
             setPersonList((prePersonList) => {
-                return [...prePersonList, { name: myName, job: job }]
+                return [...prePersonList, { name: myName, job: job, id: Math.random().toString() }]
             })
         }
     }
