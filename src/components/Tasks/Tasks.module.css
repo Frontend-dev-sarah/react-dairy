@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+}
+
+.container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+button {
+  cursor: pointer;
+  font: inherit;
+  background-color: #5b0e8f;
+  border: 1px solid #5b0e8f;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  color: white;
+}
+
+button:hover,
+button:active {
+  background-color: #5b0e8f;
+  border-color: #5b0e8f;
+}
