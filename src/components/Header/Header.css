@@ -33,11 +33,7 @@
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26);
   }
-  nav li.expand-item.current {
-    font-weight: bold;
-    background-color: #63327a;
-  }
-  nav li.expand-item:hover, nav li.expand-item:active {
+  nav li.expand-item.current, nav li.expand-item:hover, nav li.expand-item:active {
     font-weight: bold;
     background-color: #63327a;
   }
@@ -45,6 +41,9 @@
     color: white;
     text-decoration: none;
     font-size: 1.3em;
+  }
+  nav .active {
+    font-weight: bold;
   }
 
   .menu-list {

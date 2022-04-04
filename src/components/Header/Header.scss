@@ -14,7 +14,12 @@
     }
   }
 }
+
 @media only screen and (min-width: 768px) {
+  // .navlink {
+  //   font-weight: bold;
+  //   background-color: #63327a;
+  // }
   nav {
     ul {
       position: unset;
@@ -28,6 +33,7 @@
       margin-top: 0;
       list-style-type: none;
     }
+
     li.expand-item {
       cursor: pointer;
       border: 1px solid #620d8a;
@@ -36,10 +42,7 @@
       background-color: #7c20a7;
       color: white;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26);
-      &.current {
-        font-weight: bold;
-        background-color: #63327a;
-      }
+      &.current,
       &:hover,
       &:active {
         font-weight: bold;
@@ -50,6 +53,9 @@
         text-decoration: none;
         font-size: 1.3em;
       }
+    }
+    .active {
+      font-weight: bold;
     }
   }
   .menu-list {
