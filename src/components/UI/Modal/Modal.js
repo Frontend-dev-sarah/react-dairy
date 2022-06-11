@@ -17,7 +17,7 @@ const ModalContent = ({ title, message, onClick }) => {
         </div>
     )
 }
-
+//createPortal takes 2 args, 1st is the Node JSX, 2nd is the pointer in index.html file
 export const Modal = ({ title, message, onClick }) => {
     return <React.Fragment>
         {ReactDOM.createPortal(<ModalContent title={title} message={message} onClick={onClick} />, document.getElementById('portal-modal'))}
